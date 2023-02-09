@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+    font-family: 'Karla', sans-serif;
+}
+
+
+.card{
+    background: white;
+    padding: 2em;
+    width: 100%;
+    max-width: 350px;
+    margin: 1em;
+    height: 80%;
+}
+
+.search{
+    border-radius: 25px;
+}
+
+.search-bar{
+    width: 40%;
+    border-radius: 10px;
+    border: none;
+    background-color: #F4F4F4;
+    background-image: url("image/search.svg");
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 10px 15px 10px 40px;
+}
+
+.description{
+    text-transform: capitalize;
+}
+
+.city{
+    margin: 0;
+    color: rgb(94, 94, 94);
+}
+
+.country{
+    padding-left: 5px;
+    margin: 0;
+    color: rgb(94, 94, 94);
+}
+
+
+.top{
+    text-align: center;
+    margin: 50px;
+}
+
+.icon{
+    width: 100px;
+    margin-top: -10px;
+}
+
+.temp{
+    font-size: 40px;
+    margin-top: -20px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.mid{
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.min-max{
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.min, .max{
+    width: 50%;
+    margin-bottom: 5px;
+}
+
+.max{
+    text-align: right;
+}
+
+.min-max-temp{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+img{
+    max-width: 200px;
+    padding: 0 20px;
+}
+
+.min-temp, .max-temp{
+    font-size: 20px;
+    color: #767676;
+}
+
+.max-temp{
+    text-align: right;
+}
+
+.bottom{
+    display: flex;
+}
+
+.humidity-box, .wind-box{
+    width: 170px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgb(202, 202, 202);
+}
+
+.humidity-label, .wind-label{
+    color: rgb(177, 177, 177);
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.humidity{
+    font-size: 30px;
+    padding-top: 15px;
+    color: black;
+}
+
+.wind{
+    font-size: 30px;
+    padding-top: 15px;
+    color: black;
+}
+
+.weather.loading {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+}
+
+.weather.loading::after{
+    visibility: visible;
+    content: "Loading...";
+    color: black;
+    position: absolute;
+    top: 0;
+}

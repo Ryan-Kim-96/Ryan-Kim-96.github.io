@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" class="search-bar" placeholder="Search">
+        </div>
+
+        <div class="weather loading">
+            <div class="top">
+                <div class="description">Cloudy</div>
+                <img src="" alt="" class="icon">
+                <div class="temp">51°C</div>
+                <div class="flex">
+                    <p class="city">Denver</p>
+                    <p class="country">,US</p>
+                </div>
+            </div>
+
+            <div class="mid">
+                <div class="min-max">
+                    <div class="min">Min</div>
+                    <div class="max">Max</div>
+                </div>
+
+                <div class="min-max-temp">
+                    <div class="min-temp"></div>
+                    <img src="image/middle.svg" alt="">
+                    <div class="max-temp"></div>
+                </div>
+            </div>
+
+            <div class="bottom">
+                <div class="humidity-box">
+                    <p class="humidity-label">Humidity</p>
+                    <div class="humidity">Humidity</div>
+                </div>
+                <div class="wind-box">
+                    <p class="wind-label">Wind Speed</p>
+                    <div class="wind">Wind speed</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
