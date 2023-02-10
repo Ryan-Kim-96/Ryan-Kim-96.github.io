@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+
+
+.todo-list{
+    min-width: 30%;
+    list-style: none;
+    padding: 0;
+}
+
+.todo-input{
+    border-radius: 5px;
+    border: 2px solid #112531;
+    background-color: aliceblue;
+}
+
+.todo{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    background: #112531;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    height: 300px;
+    justify-content: space-between;
+    min-width: 200px;
+    transition: all .5s ease;
+}
+
+.todo-button{
+    width: 70px;
+    background-color: #112531;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+
+.todo li{
+    flex: 1;
+}
+
+
+.trash-btn, 
+.complete-btn{
+    height: 50px;
+    width: 50px;
+    background: #ff6f47;
+    color: white;
+    border: none;
+    padding: 1rem;
+    margin: .1rem;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 1rem;
+    float: inline-end;
+}
+
+.complete-btn{
+    background: rgb(73, 204, 73);
+    width: 50%;
+}
+
+.complete-btn-name{
+    margin-top: -3px;
+}
+
+.trash-icon{
+    width: 20px;
+    margin-top: 0px;
+    margin-left: -1px ;
+}
+
+.todo-item{
+    padding: 0rem  0.5rem;
+    height: 245px;
+}
+
+.fa-trash,
+.fa-check{
+    pointer-events: none;
+}
+
+.completed{
+    opacity: .5;
+}
+
+.fall{
+    opacity: 0;
+}
+
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    border: none;
+
+}
+
+.select{
+    margin-top: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+select{
+    background-color: #1f3341;
+    text-align: center;
+    color: white;
+    width: 150px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 9px;
+}
