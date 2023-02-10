@@ -297,6 +297,16 @@ p{
     color: rgba(0, 0, 0, .5);
 }
 
+.bottom-column{
+    height: 50%; 
+    border: none; 
+    visibility: hidden;
+}
+
+.column-name{
+    margin-left: 50px; 
+    color: black;
+}
 @media(min-width: 860px){
     .cards{
         grid-template-columns: repeat(2, 1fr);
@@ -324,6 +334,23 @@ p{
 
     .overlay-text1{
         visibility: visible;
+    }
+
+    .bottom-column{
+        visibility: visible;
+    }
+
+    .home{
+        background-color: #AC82E2;
+    }
+
+    #home{
+        background-color: #AC82E2;
+    }
+
+    .column-name{
+        margin-left: 50px; 
+        color: white;
     }
 
 }
