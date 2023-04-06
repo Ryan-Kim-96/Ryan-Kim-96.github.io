@@ -151,7 +151,7 @@ a:link{
     grid-template-columns: repeat(10, 1fr);
     gap: 10px;
     grid-auto-rows: minmax(160px, auto);
-    overflow-y: scroll;
+    overflow-y: hidden;
 }
 
 .wrapper div img{
